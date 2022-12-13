@@ -1,0 +1,44 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+	border: 0;
+	vertical-align: baseline;
+}
+body, html {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+header div {
+    position: absolute;
+    text-align: center;
+    background-color: gray;
+    width: 20vw;
+    box-shadow: 1px 1px 5px black;
+    padding: 1em;
+    border-radius: 0px 0px 0px 10px;
+    margin-left: 80vw;
+    margin-top: -3.6vh;
+}
+li {
+    display: inline;
+    margin-right: 1vw;
+}
+a {
+    color: white;
+    transition: .3s;
+}
+a:visited {
+    color: rgb(226, 183, 131);
+}
+a:hover {
+    color: bisque;
+}
